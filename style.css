@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    max-width: 75%;
+    margin: 0 auto;
+}
+
+/* REUSABLE CLASSES */
+.bg-dark {
+    background-color: #1f2937;
+}
+
+.bg-light {
+    background-color: #e5e7eb;
+}
+
+.clr-light {
+    color: white;
+}
+
+/* HEADER COMPONENTS */
+header {
+    height: 3rem;
+}
+
+nav {
+    display: flex;
+    padding: 1rem;
+    justify-content: space-between;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+}
