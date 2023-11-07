@@ -54,13 +54,15 @@ nav {
 ul {
     list-style: none;
     display: flex;
-    gap: 1rem;
+    gap: 1.5rem;
     color: var(--light-gray);
 }
 
 /* HERO SECTION STYLING */
 .hero {
     background-color: var(--dark-blue);
+    padding-top: 4rem;
+    padding-bottom: 7rem;
 }
 .grid-2col {
     display: grid;
@@ -101,11 +103,15 @@ ul {
 }
 
 /* INFO SECTION STYLING */
+.info {
+    padding-bottom: 7rem;
+}
 .info h1 {
     font-size: var(--fs-l);
     color: var(--dark-blue);
     font-weight: 900;
     text-align: center;
+    padding: 3rem;
 }
 .grid-4col {
     display: grid;
@@ -162,4 +168,12 @@ blockquote footer {
 }
 .signup__btn {
     border: 2px solid var(--white);
+}
+/* CONTENT SEPARATION */
+footer p {
+    padding: 2rem;
+}
+.quote,
+.signup {
+    padding: 7rem 0;
 }
