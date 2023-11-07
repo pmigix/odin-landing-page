@@ -35,7 +35,8 @@ body a:hover {
 }
 
 /* HEADER STYLING */
-header {
+header,
+footer p {
     min-height: 3rem;
     background-color: var(--dark-blue);
     color: var(--white);
@@ -141,7 +142,7 @@ blockquote footer {
     font-weight: 700;
 }
 
-/* CALL TO ACTION SECTION */
+/* CALL TO ACTION SECTION STYLING */
 .bg-accent {
     background-color: var(--blue);
     border-radius: .5rem;
