@@ -15,6 +15,9 @@
     box-sizing: border-box;
 }
 body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container {
     width: 80%;
     max-width: 1024px;
     margin: 0 auto;
@@ -22,15 +25,23 @@ body {
 
 /* HEADER STYLING */
 header {
-    height: 3rem;
+    min-height: 3rem;
+    background-color: var(--dark-blue);
+    color: var(--white);
+}
+.logo-text {
+    font-size: var(--fs-m);
+    font-weight: bold;
 }
 nav {
     display: flex;
     padding: 1rem;
     justify-content: space-between;
+    align-items: center;
 }
 ul {
     list-style: none;
     display: flex;
     gap: 1rem;
+    color: var(--light-gray);
 }
