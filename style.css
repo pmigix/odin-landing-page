@@ -29,6 +29,10 @@ body {
     justify-content: center;
     align-items: center;
 }
+body a:hover {
+    background-color: var(--white);
+    color: var(--blue);
+}
 
 /* HEADER STYLING */
 header {
@@ -76,7 +80,8 @@ ul {
 .hero p {
     color: var(--light-gray);
 }
-.hero a {
+.hero a,
+.signup__btn {
     color: var(--white);
     background-color: var(--blue);
     padding: .5rem 1.5rem;
@@ -84,7 +89,8 @@ ul {
     font-weight: 700;
     text-decoration: none;
     text-align: center;
-    width: 25%;
+    width: 8rem;
+    white-space: nowrap;
 }
 .img-placeholder {
     background-color: var(--gray);
@@ -133,4 +139,26 @@ blockquote p {
 blockquote footer {
     text-align: right;
     font-weight: 700;
+}
+
+/* CALL TO ACTION SECTION */
+.bg-accent {
+    background-color: var(--blue);
+    border-radius: .5rem;
+    padding: 2rem;
+}
+.flex-evenly {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.signup__text h2 {
+    color: var(--white);
+    font-size: var(--fs-m);
+}
+.signup__text p {
+    color: var(--light-gray);
+}
+.signup__btn {
+    border: 2px solid var(--white);
 }
