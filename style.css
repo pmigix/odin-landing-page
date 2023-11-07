@@ -1,38 +1,34 @@
+:root {
+    --dark-blue: #1f2937;
+    --blue: #3882f6;
+    --light-gray: #e5e7eb;
+    --white: #f9faf8;
+
+    --fs-s: 18px;
+    --fs-m: 24px;
+    --fs-l: 36px;
+    --fs-xl: 48px;
+}
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-
 body {
-    max-width: 75%;
+    width: 80%;
+    max-width: 1024px;
     margin: 0 auto;
 }
 
-/* REUSABLE CLASSES */
-.bg-dark {
-    background-color: #1f2937;
-}
-
-.bg-light {
-    background-color: #e5e7eb;
-}
-
-.clr-light {
-    color: white;
-}
-
-/* HEADER COMPONENTS */
+/* HEADER STYLING */
 header {
     height: 3rem;
 }
-
 nav {
     display: flex;
     padding: 1rem;
     justify-content: space-between;
 }
-
 ul {
     list-style: none;
     display: flex;
