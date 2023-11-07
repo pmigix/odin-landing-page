@@ -117,3 +117,20 @@ ul {
 .col p {
     color: var(--gray);
 }
+
+/* QUOTE SECTION STYLING */
+.quote {
+    background-color: var(--light-gray);
+}
+blockquote {
+    width: 80%;
+    max-width: 725px;
+}
+blockquote p {
+    font-size: var(--fs-l);
+    font-style: italic;
+}
+blockquote footer {
+    text-align: right;
+    font-weight: 700;
+}
